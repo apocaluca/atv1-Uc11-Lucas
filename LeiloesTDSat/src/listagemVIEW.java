@@ -18,9 +18,8 @@ public class listagemVIEW extends javax.swing.JFrame {
      */
     public listagemVIEW() {
         initComponents();
-        listarProdutos();
+        listarProdutos(); // Chama o método listarProdutos() no construtor para exibir os produtos ao abrir a tela
     }
-
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
